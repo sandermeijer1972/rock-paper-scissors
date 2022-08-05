@@ -1,0 +1,10 @@
+body {
+    background-color: navajowhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    margin-top: 160px;
+}
