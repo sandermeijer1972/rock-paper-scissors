@@ -86,7 +86,7 @@ const startSpel = () => {
             if(computerWint>jijWint) {
                 alert("Je bent nu bijna halverwege het spel, en de stand is " + computerWint + "-" + jijWint + " in jouw nadeel. Dus even een tandje bij " + deelnemer + "!");
             } else if (jijWint > computerWint) {
-                alert("Je bent nu halverwege het spel, en je staat met " + jijWint + "-" + computerWint + " voor. Ga zo door " + deelnemer + "!");
+                alert("Je bent nu bijna halverwege het spel, en je staat met " + jijWint + "-" + computerWint + " voor. Ga zo door " + deelnemer + "!");
             } else {
                 alert("Het spelletje is bijna halverwege en de stand is gelijk, " + jijWint + "-" + computerWint + ". Het kan nog alle kanten op dus!");
             };
