@@ -94,10 +94,10 @@ const startSpel = () => {
     };
     if(jijWint > computerWint) {
         alert("Gefeliciteerd " + deelnemer + "! Jij hebt het spelletje gewonnen!!!!! De eindstand is " + jijWint + " tegen " + computerWint + " in jouw voordeel.");
-        alert("Bedankt voor het spelen " + deelnemer + ", en wellicht tot een volgende keer!");
+        alert("Bedankt voor het spelen " + deelnemer + ", en probeer het gewoon nog een keer!");
     } else {
         alert("Helaas " + deelnemer + ", de eindstand is " + computerWint + " tegen " + jijWint + " in het voordeel van de computer, en daarom heeft de computer het spelletje gewonnen...");
-        alert("Bedankt voor het spelen " + deelnemer + ", en hopelijk kom je een volgende keer revanche nemen!");
+        alert("Bedankt voor het spelen " + deelnemer + ", en hopelijk kan je in een volgend potje revanche nemen!");
     };
 };
 
