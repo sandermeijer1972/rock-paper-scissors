@@ -1,4 +1,7 @@
-const deelnemer = prompt("Hoe heet je?");
+let deelnemer = prompt("Hoe heet je?");
+if(deelnemer.length < 1) {
+    deelnemer = "Onbekende Anonieme Speler die te beroerd is om z'n naam in te vullen";
+};
 alert("Hoi " + deelnemer + ", welkom bij Rock-Paper-Scissors!");
 alert("Je gaat een spelletje spelen tegen de computer. Je mag zelf bepalen uit hoeveel rondes een spel bestaat. Het moet wel een oneven aantal zijn, anders hebben we geen winnaar. Een ronde die gelijk eindigt telt niet mee.");
 let rondesTeSpelen = prompt("Hoeveel rondes duurt een spelletje?");
