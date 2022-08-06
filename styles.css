@@ -5,6 +5,26 @@ body {
     align-items: center;
 }
 
+img {
+    max-width: 100%;
+}
+
+button {
+    background-color: #FFA31A;
+    border: solid 3px #804D00;
+    border-radius: 4px;
+    color: #331F00;
+    font-size: 50px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #331F00;
+    color: #FFA31A;
+}
+
 .image {
-    margin-top: 160px;
+    margin-top: 70px;
 }
