@@ -65,7 +65,7 @@ while (ronde <= rondesTeSpelen) {
             computerWint++;
             ronde++;
         };
-    } else if(jouwKeuze = "S") {
+    } else if(jouwKeuze == "S") {
         if(computer = "R") {
             alert("De computer speelde Rock en jij Scissors, dus de computer wint deze ronde.");
             computerWint++;
