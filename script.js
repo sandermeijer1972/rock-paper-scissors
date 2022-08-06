@@ -53,7 +53,7 @@ while (ronde <= rondesTeSpelen) {
             jijWint++;
             ronde++;
         };
-    } else if(jouwKeuze = "P") {
+    } else if(jouwKeuze == "P") {
         if(computer == "R") {
             alert("De computer speelde Rock en jij Paper, dus jij wint deze ronde!");
             jijWint++;
@@ -66,7 +66,7 @@ while (ronde <= rondesTeSpelen) {
             ronde++;
         };
     } else if(jouwKeuze == "S") {
-        if(computer = "R") {
+        if(computer == "R") {
             alert("De computer speelde Rock en jij Scissors, dus de computer wint deze ronde.");
             computerWint++;
             ronde++;
